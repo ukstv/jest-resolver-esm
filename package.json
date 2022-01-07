@@ -1,0 +1,23 @@
+{
+  "name": "jest-resolver-esm",
+  "version": "1.0.0",
+  "description": "ESM resolver for Jest: use Webpack enhanced-resolver by default, with fallback to Jest resolver",
+  "keywords": [
+    "jest",
+    "resolver",
+    "conditional-exports",
+    "webpack",
+    "ESM"
+  ],
+  "main": "index.js",
+  "files": ["index.js"],
+  "author": "Sergey Ukustov <sergey@ukstv.me>",
+  "license": "(MIT OR Apache-2.0)",
+  "homepage": "https://github.com/ukstv/jest-resolver-esm",
+  "bugs": {
+    "url": "https://github.com/ukstv/jest-resolver-esm/issues"
+  },
+  "dependencies": {
+    "enhanced-resolve": "^5.8.2"
+  }
+}
